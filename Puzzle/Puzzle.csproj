@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<ApplicationIcon>Resources\puzzle.ico</ApplicationIcon>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<Authors>Tracy Ma</Authors>
+		<Copyright>Copyright © Tracy Ma</Copyright>
+		<Description>first release.</Description>
+		<Guid>a2d38502-758f-43c8-aea3-e3359f80be8b</Guid>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Resources\puzzle.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BusyIndicators" />
+		<PackageReference Include="CommunityToolkit.Mvvm" />
+		<PackageReference Include="MaterialDesignThemes" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Resources\puzzle.ico" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,39 @@
+﻿<Window x:Class="Puzzle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Puzzle"
+        xmlns:uc="clr-namespace:Puzzle.UserControls"
+        xmlns:busyIndicator="https://github.com/moh3ngolshani/BusyIndicator"
+        mc:Ignorable="d"
+        Title="A Puzzle A Day"
+        Icon="Resources/puzzle.ico"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        Height="510"
+        Width="510">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <busyIndicator:BusyMask 
+            x:Name="BusyIndicator" 
+            IsBusy="{Binding IsBusy}" 
+            Grid.Row="0"
+            IndicatorType="Dashes" 
+            BusyContent="Please wait..." 
+            BusyContentMargin="0,20,0,0" 
+            IsBusyAtStartup="False" >
+            <uc:PuzzleDesk/>
+        </busyIndicator:BusyMask>
+        <StatusBar Grid.Row="1" Height="20">
+            <StatusBarItem Background="{DynamicResource MaterialDesignPaper}" Foreground="{DynamicResource MaterialDesignBody}">
+                <TextBlock Text="{Binding Status}" Margin="10,0"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+
+</Window>
