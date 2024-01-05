@@ -1,6 +1,11 @@
 # A Puzzle A Day Solver
 
+<div align="center">
+
 ![LOGO](Puzzle/Resources/puzzle.ico)
+
+</div>
+
 ***A Puzzle A Day Solver*** is a graphical interface program designed to solve daily puzzles, providing users with solutions to different puzzles each day. Developed in C#, the project offers an intuitive user interface for quick and easy access to answers.
 
 ## About
@@ -36,8 +41,8 @@ Our solution is capable of supporting queries for all puzzle answers and provide
     > dotnet build
     ```
 ### Other
-1. If you had install .NET 8 SDK, then just download the Framework-dependent version
-2. If you don't want to install SDK, then you can download the self-contained version
+1. If you had install [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0), then just download the Framework-dependent version: [puzzle_win-portal_framework-dependent](https://github.com/tracyma-05/Puzzle/releases/download/v1.0.0/puzzle_win-portal_framework-dependent_v1.0.0.zip)
+2. If you don't want to install SDK, then you can download the self-contained version: [puzzle_win-x64-portal_self-contained](https://github.com/tracyma-05/Puzzle/releases/download/v1.0.0/puzzle_win-x64-portal_self-contained_v1.0.0.zip)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE file](./LICENSE) for more details.
