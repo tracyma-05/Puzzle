@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LOGO](Puzzle/Resources/puzzle.ico)
+![LOGO](Puzzle/Resources/cover.jpg)
 
 </div>
 
