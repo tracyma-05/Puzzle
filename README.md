@@ -14,12 +14,15 @@
 Our solution is capable of supporting queries for all puzzle answers and provides a preview function, allowing users to quickly browse through all solutions.
 
 - **Startup**
+
 ![START](Puzzle/Resources/start.png)
 
 - **Running**
+
 ![RUNNING](Puzzle/Resources/running.png)
 
 - **Result**
+
 ![RESULT](Puzzle/Resources/result.png)
 
 ## Features
@@ -34,11 +37,11 @@ Our solution is capable of supporting queries for all puzzle answers and provide
 3. Clone the project to your local machine:
 
     ```bash
-    > git clone https://github.com/tracyma-05/puzzle.git
+    git clone https://github.com/tracyma-05/puzzle.git
 
-    > cd Puzzle
+    cd Puzzle
 
-    > dotnet build
+    dotnet build
     ```
 ### Other
 1. If you had install [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0), then just download the Framework-dependent version: [puzzle_win-portal_framework-dependent](https://github.com/tracyma-05/Puzzle/releases/download/v1.0.0/puzzle_win-portal_framework-dependent_v1.0.0.zip)
